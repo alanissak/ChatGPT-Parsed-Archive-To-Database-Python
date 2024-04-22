@@ -8,9 +8,9 @@ from datetime import datetime
 config = {
     'host': 'localhost',
     'port': 3306,
-    'user': '<Database_Username>',
-    'password': '<Database_Password>',
-    'database': '<Database_Name>'
+    'user': '<Database_Username>', # Your Database Username
+    'password': '<Database_Password>', # Your Database User's Password
+    'database': '<Database_Name>' # Database Name
 }
 
 # Path to the directory containing JSON files
