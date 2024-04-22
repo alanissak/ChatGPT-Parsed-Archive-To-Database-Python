@@ -14,7 +14,7 @@ config = {
 }
 
 # Path to the directory containing JSON files
-folder_path = '<Folder_With_JSON_Files>'
+folder_path = '<Folder_With_JSON_Files>' #Specify a folder where all your JSON files are
 
 # UUID Regex for filename validation
 UUID_REGEX = re.compile(r'^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\.json$')
